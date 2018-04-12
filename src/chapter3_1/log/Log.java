@@ -8,9 +8,15 @@ import java.io.InputStreamReader;
 
 public abstract class Log {
     Output output;
-    String logs;
-    abstract void Display();
-    String getLogs(){
+
+    public Log(){
+
+    }
+    public abstract void Display();
+    public void outlog(){
+        output.outputlog(getLogs());
+    }
+    public String getLogs(){
         try {
             BufferedReader strin = new BufferedReader(new InputStreamReader(
                     System.in));

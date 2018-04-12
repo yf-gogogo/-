@@ -8,7 +8,7 @@ public class ConsoleLog extends Log {
     }
 
     @Override
-    void Display() {
-        System.out.println("");
+    public void Display() {
+        System.out.println("将写入控制台");
     }
 }
