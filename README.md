@@ -7,3 +7,4 @@
 * chapter3为策略模式
 * chapter4为观察者模式
 * chapter5为装饰者模式
+* chapter6为命令模式
