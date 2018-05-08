@@ -5,3 +5,4 @@
 * chapter1为单例模式
 * chapter2为工厂模式
 * chapter3为策略模式
+* chapter4为观察者模式
