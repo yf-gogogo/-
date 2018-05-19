@@ -30,8 +30,8 @@ public class Singleton {
     }*/
 
     /**
-     *优化方法2
-     *  类装载时实现实例化，并声明为final,这样实例化的类就不会被重新赋值
+     * 优化方法2
+     * 类装载时实现实例化，并声明为final,这样实例化的类就不会被重新赋值
      */
     private static final Singleton uniqueInstance = new Singleton();
     private Singleton() {}
